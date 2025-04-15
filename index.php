@@ -1,5 +1,4 @@
 <?php
-echo "Hello from index.php!";
 header('Content-Type: application/json');
 $path = $_GET['route'] ?? '';
 
@@ -12,5 +11,5 @@ switch ($path) {
         break;
     default:
         http_response_code(404);
-        echo json_encode(["error" => "Not Found"]);
+        echo json_encode(["error" => "Not Foundd"]);
 }
