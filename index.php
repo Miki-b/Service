@@ -1,4 +1,5 @@
 <?php
+echo "Hello from index.php!";
 header('Content-Type: application/json');
 $path = $_GET['route'] ?? '';
 
