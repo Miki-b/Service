@@ -3,7 +3,7 @@ header('Content-Type: application/json');
 $path = $_GET['route'] ?? '';
 
 switch ($path) {
-    case 'helloo':
+    case 'hello':
         echo json_encode(["message" => "Hello there!"]);
         break;
     case 'user':
